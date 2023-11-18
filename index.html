@@ -3,62 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drought Information</title>
+    <title>Drought Quotes</title>
     <style>
-        /* Add your CSS styles here */
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #009688;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('bgimage.jpg');
+            background-size: cover;
+            background-position: center;
             color: #fff;
             text-align: center;
-            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
+        #quote-container {
+            max-width: 80%;
+            margin: 20px;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+        #quote {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        #btn-container {
+            margin-top: 20px;
+        }
+        #redirect-btn {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #redirect-btn:hover {
+            background-color: #45a049;
+        }
+        .additional-quotes {
+            margin: 20px 0;
+            font-size: 1.2em;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Drought Information</h1>
-        <p>Understanding Drought and Its Impact</p>
-    </header>
-    <div class="container">
-        <h2>What is Drought?</h2>
-        <p>Drought is a prolonged period of abnormally low rainfall or water shortage, leading to a shortage of water resources. It can have severe impacts on ecosystems, agriculture, and human communities.</p>
-
-        <h2>Types of Drought</h2>
-        <p>There are different types of drought, including meteorological drought (lack of rainfall), agricultural drought (impact on crops), hydrological drought (low water levels in rivers and reservoirs), and socioeconomic drought (impact on communities).</p>
-
-        <h2>Causes of Drought</h2>
-        <p>Drought can be caused by various factors, including climate change, natural variability, overuse of water resources, and deforestation. Understanding the causes is crucial for effective drought management.</p>
-
-        <h2>Drought Impacts</h2>
-        <p>Drought can have far-reaching consequences, such as crop failure, water scarcity, food shortages, and economic hardship. It also affects ecosystems, leading to wildfires and habitat loss.</p>
-
-        <h2>Drought Management</h2>
-        <p>Efficient drought management involves water conservation, sustainable agriculture practices, early warning systems, and government policies to mitigate its effects and protect vulnerable populations.</p>
-
-        <h2>Resources</h2>
-        <ul>
-            <li><a href="#">Drought Preparedness Guidelines</a></li>
-            <li><a href="#">National Drought Monitor</a></li>
-            <li><a href="#">Drought Relief Programs</a></li>
-        </ul>
+    <div id="quote-container">
+        <p id="quote">"Drought teaches us to appreciate the importance of every drop of water."</p>
+    </div>
+    <div class="additional-quotes">
+        <p>"Water is life's matter and matrix, mother and medium. There is no life without water."</p>
+        <p>"The best time to plant a tree was 20 years ago. The second-best time is now."</p>
+    </div>
+    <div id="btn-container">
+        <a id="redirect-btn" href="che110.html">Explore More</a>
     </div>
 </body>
 </html>
-
-
-
-
